@@ -1,8 +1,41 @@
-a {
-    color: black;
-    font-size: 32px;
+* {
+    color: red;
 }
 
-ul {
-    list-style: none;
+div {
+    color: black;
+}
+
+.selector {
+    color: blue;
+}
+
+#idSelector {
+    color: brown;
+}
+
+.parent .child {
+    color: orange;
+}
+
+.selector.combine {
+    color: violet;
+}
+
+a {
+    color: pink;
+}
+
+[href="www.gvozdaryov.com"] {
+    display: block;
+    color: lime;
+}
+
+.link {
+    display: block;
+    color: yellow;
+}
+
+.link.gvozdaryov {
+    color: aqua;
 }

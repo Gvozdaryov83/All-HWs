@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
+
 <body>
     <header>
-        <ul>
-            <li><a href="/">link</a></li>
-            <li><a href="/">link</a></li>
-            <li><a href="/">link</a></li>
-        </ul>
+        *если необходимо установить один стиль для всех элементов. ( в моем случае отлетел, т.к. последующие команды
+        были приоритетнее ).
+
+        <div>по имени элемента (названию)</div>
+
+        <div class="selector">по классу элемента</div>
+
+        <div id="idSelector">по выбору уникального id</div>
+
+
+
+        <div class="parent">
+            <span class="child">селектор, комбинированый по элементам</span>
+        </div>
+
+        <div class="selector combine">селектор, комбинированый для обращения к одному элементу с двомя классами</div>
+
+        <a href="">селектор по атрибуту (у нас-все ссылки)</a>
+
+        <a href="www.gvozdaryov.com">селектор по атрибуту href</a>
+
+        <a class="link" href="">селектор атрибута по классу пустой ссылки</a>
+
+        <a class="link gvozdaryov" href="www.gvozdaryov.com">комбинированый селектор к атрибуту</a>
     </header>
 </body>
+
 </html>
